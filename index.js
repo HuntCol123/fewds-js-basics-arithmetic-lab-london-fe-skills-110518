@@ -23,12 +23,12 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max));
 }
 
-let randomNumber = (getRandomInt(20));
+let randomNumber = Math.random(20)*100;
 
-let randomInteger = randomNumber;
+let randomInteger = Math.floor(randomNumber);
 
 
-let randomUserID = randomInteger + 1000000000;
+let randomUserID = randomInteger + 10000000;
 
 
 
