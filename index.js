@@ -23,9 +23,9 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max));
 }
 
-let randomNumber = (getRandomInt(20));
+let randomNumber = getRandomInt(20);
 
-let randomInteger = randomNumber;
+let randomInteger = Math.floor(randomNumber);
 
 
 let randomUserID = randomInteger + 1000000000;
